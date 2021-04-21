@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="jaxb">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Used_Libraries/jaxb/jaxb-xjc-2.2.5-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Used_Libraries/jaxb/jaxb1-impl-2.2.5-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Used_Libraries/jaxb/activation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Used_Libraries/jaxb/jaxb-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Used_Libraries/jaxb/jaxb-impl-2.2.5-2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

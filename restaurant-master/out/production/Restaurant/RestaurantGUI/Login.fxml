@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="752.0" prefWidth="1386.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RestaurantGUI.LoginController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" VBox.vgrow="ALWAYS">
+      <children>
+            <Group layoutX="4.0" layoutY="-12.0" style="visibility: true;">
+               <children>
+                  <Label alignment="CENTER" layoutX="161.0" layoutY="199.0" style="&#10;" text="Drag components from Library here…" textAlignment="CENTER" textFill="#9f9f9f" wrapText="false">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="782.0" fitWidth="1400.0" layoutX="-4.0" layoutY="-16.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@resources/signup.png" />
+                     </image>
+                  </ImageView>
+                  <JFXTextField fx:id="usernameFieldSignup" alignment="BOTTOM_CENTER" focusColor="#ea7400" layoutX="302.0" layoutY="422.0" prefHeight="27.0" prefWidth="364.0" style="-fx-text-fill: #ea7400;" unFocusColor="WHITE">
+                     <font>
+                        <Font name="Arial" size="21.0" />
+                     </font>
+                  </JFXTextField>
+                  <JFXPasswordField fx:id="passwordFieldSignup" alignment="CENTER" focusColor="#ea7400" layoutX="302.0" layoutY="488.0" prefHeight="27.0" prefWidth="364.0" style="-fx-text-fill: #ea7400;" unFocusColor="WHITE">
+                     <font>
+                        <Font name="Arial" size="21.0" />
+                     </font>
+                  </JFXPasswordField>
+                  <JFXButton id="orange" alignment="CENTER" buttonType="RAISED" contentDisplay="TOP" defaultButton="true" layoutX="112.0" layoutY="553.0" onAction="#newAccount" prefHeight="63.0" prefWidth="220.0" ripplerFill="#ffa100" stylesheets="@resources/orangeButtons.css" text="Sign Up Now" textAlignment="CENTER" textFill="#ff8300" textOverrun="CLIP">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton id="orange" alignment="CENTER" buttonType="RAISED" contentDisplay="TOP" layoutX="65.0" layoutY="686.0" onAction="#goToLogin" prefHeight="49.0" prefWidth="188.0" ripplerFill="#ffa100" stylesheets="@resources/orangeButtons.css" text="Login Now" textAlignment="CENTER" textFill="#ff8300" textOverrun="CLIP">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXComboBox id="combo" fx:id="accountChoicebox" focusColor="#ea7400" layoutX="301.0" layoutY="340.0" prefHeight="41.0" prefWidth="182.0" stylesheets="@resources/combo.css" unFocusColor="WHITE" />
+                  <JFXTextField fx:id="roleCode" alignment="BOTTOM_CENTER" focusColor="#ea7400" layoutX="491.0" layoutY="342.0" prefHeight="0.0" prefWidth="175.0" style="-fx-text-fill: #ea7400;" unFocusColor="WHITE">
+                     <font>
+                        <Font name="Arial" size="21.0" />
+                     </font>
+                  </JFXTextField>
+                  <JFXTextField fx:id="nameField" alignment="BOTTOM_CENTER" focusColor="#ea7400" layoutX="301.0" layoutY="276.0" prefHeight="27.0" prefWidth="364.0" style="-fx-text-fill: #ea7400;" unFocusColor="WHITE">
+                     <font>
+                        <Font name="Arial" size="21.0" />
+                     </font>
+                  </JFXTextField>
+               </children>
+            </Group>
+            <Group fx:id="loginLayer" layoutX="-6.0" layoutY="-22.0" style="visibility: true;">
+               <children>
+              <Label alignment="CENTER" layoutX="161.0" layoutY="199.0" style="&#10;" text="Drag components from Library here…" textAlignment="CENTER" textFill="#9f9f9f" wrapText="false">
+                <font>
+                  <Font size="18.0" />
+                </font>
+              </Label>
+                  <ImageView fitHeight="782.0" fitWidth="1400.0" layoutX="6.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@resources/login.png" />
+                     </image>
+                  </ImageView>
+                  <JFXTextField fx:id="usernameTxt" alignment="BOTTOM_CENTER" focusColor="#ea7400" layoutX="311.0" layoutY="309.0" prefHeight="27.0" prefWidth="364.0" style="-fx-text-fill: #ea7400;" stylesheets="@resources/orangeButtons.css" unFocusColor="WHITE">
+                     <font>
+                        <Font name="Arial" size="21.0" />
+                     </font>
+                  </JFXTextField>
+                  <JFXPasswordField fx:id="passwordTxt" alignment="CENTER" focusColor="#ea7400" layoutX="312.0" layoutY="396.0" prefHeight="27.0" prefWidth="364.0" style="-fx-text-fill: #ea7400;" unFocusColor="WHITE">
+                     <font>
+                        <Font name="Arial" size="21.0" />
+                     </font>
+                  </JFXPasswordField>
+                  <JFXButton id="orange" fx:id="logInBtn" alignment="CENTER" buttonType="RAISED" contentDisplay="TOP" defaultButton="true" layoutX="144.0" layoutY="485.0" onAction="#goToReservation" prefHeight="63.0" prefWidth="220.0" ripplerFill="#ffa100" stylesheets="@resources/orangeButtons.css" text="Login Now" textAlignment="CENTER" textFill="#ff8300" textOverrun="CLIP">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton id="orange" alignment="CENTER" buttonType="RAISED" contentDisplay="TOP" layoutX="75.0" layoutY="665.0" onAction="#goToSignUp" prefHeight="44.0" prefWidth="244.0" ripplerFill="#ffa100" stylesheets="@resources/orangeButtons.css" text="Sign Up Now" textAlignment="CENTER" textFill="#ff8300" textOverrun="CLIP">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </Group>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>

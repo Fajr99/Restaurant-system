@@ -1,0 +1,14 @@
+
+#combo.combo-box .cell{
+    -fx-text-fill: #ea7400;
+    -fx-font: 21px "Arial";
+    -fx-alignment: center;
+-fx-background-color: null;
+}
+#combo.my-list-cell {
+    -fx-text-fill: #ea7400;
+    -fx-font: 18px "Arial";
+    -fx-alignment: center;
+    /* No alternate highlighting */
+    
+}

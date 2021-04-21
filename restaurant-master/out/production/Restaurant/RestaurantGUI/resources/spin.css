@@ -1,0 +1,21 @@
+#spin.spinner .increment-arrow-button,
+#spin.spinner .decrement-arrow-button {
+    -fx-body-color: #ea7400;
+}
+
+#spin.spinner .increment-arrow-button:hover,
+#spin.spinner .decrement-arrow-button:hover {
+    -fx-body-color: #000000;
+}
+
+#spin.spinner .increment-arrow-button:hover:pressed,
+#spin.spinner .decrement-arrow-button:hover:pressed,
+#spin.spinner .increment-arrow-button:pressed,
+#spin.spinner .decrement-arrow-button:pressed {
+    -fx-body-color: #ea7400;
+}
+#spin{
+-fx-text-fill: #ea7400;
+    -fx-font: 15px "Arial";
+    -fx-alignment: center;
+}

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="jaxb1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Used_Libraries/jfoenix-9.0.8.jar!/" />
+      <root url="file://$PROJECT_DIR$/Used_Libraries/jaxb" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/Used_Libraries/jaxb" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/Used_Libraries/jaxb" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/Used_Libraries/jaxb" recursive="false" type="SOURCES" />
+  </library>
+</component>
